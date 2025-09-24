@@ -2,79 +2,79 @@
   --oui-font-family: 'Manrope', sans-serif;
 
   /* colors */
-  --oui-color-primary: 176 132 233;
-  --oui-color-primary-light: 213 190 244;
-  --oui-color-primary-darken: 137 76 209;
-  --oui-color-primary-contrast: 255 255 255;
+  --oui-color-primary: 0 212 255; /* Bright cyan for primary accent */
+  --oui-color-primary-light: 64 224 255; /* Lighter cyan variant */
+  --oui-color-primary-darken: 0 156 198; /* Darker cyan shade */
+  --oui-color-primary-contrast: 0 0 0; /* Black for contrast on light accents */
 
-  --oui-color-link: 189 107 237;
-  --oui-color-link-light: 217 152 250;
+  --oui-color-link: 124 58 237; /* Vibrant purple for links */
+  --oui-color-link-light: 165 108 245; /* Lighter purple variant */
 
-  --oui-color-secondary: 255 255 255;
-  --oui-color-tertiary: 218 218 218;
-  --oui-color-quaternary: 218 218 218;
+  --oui-color-secondary: 255 255 255; /* White for secondary text/background */
+  --oui-color-tertiary: 160 168 184; /* Muted silver-gray for tertiary text */
+  --oui-color-quaternary: 160 168 184; /* Same as tertiary for consistency */
 
-  --oui-color-danger: 245 97 139;
-  --oui-color-danger-light: 250 167 188;
-  --oui-color-danger-darken: 237 72 122;
-  --oui-color-danger-contrast: 255 255 255;
+  --oui-color-danger: 255 107 107; /* Soft red for warnings/errors */
+  --oui-color-danger-light: 255 150 150; /* Lighter red variant */
+  --oui-color-danger-darken: 230 80 80; /* Darker red shade */
+  --oui-color-danger-contrast: 0 0 0; /* Black for contrast */
 
-  --oui-color-success: 41 233 169;
-  --oui-color-success-light: 101 240 194;
-  --oui-color-success-darken: 0 161 120;
-  --oui-color-success-contrast: 255 255 255;
+  --oui-color-success: 41 233 169; /* Retained green for success (unchanged) */
+  --oui-color-success-light: 101 240 194; /* Retained light green (unchanged) */
+  --oui-color-success-darken: 0 161 120; /* Retained dark green (unchanged) */
+  --oui-color-success-contrast: 0 0 0; /* Black for contrast */
 
-  --oui-color-warning: 255 209 70;
-  --oui-color-warning-light: 255 229 133;
-  --oui-color-warning-darken: 255 152 0;
-  --oui-color-warning-contrast: 255 255 255;
+  --oui-color-warning: 255 209 70; /* Retained yellow for warning (unchanged) */
+  --oui-color-warning-light: 255 229 133; /* Retained light yellow (unchanged) */
+  --oui-color-warning-darken: 255 152 0; /* Retained dark yellow (unchanged) */
+  --oui-color-warning-contrast: 0 0 0; /* Black for contrast */
 
-  --oui-color-fill: 36 32 47;
-  --oui-color-fill-active: 40 46 58;
+  --oui-color-fill: 10 14 26; /* Deep navy blue-black for main background */
+  --oui-color-fill-active: 26 31 46; /* Lighter dark gray-blue for active states */
 
-  --oui-color-base-1: 93 83 123;
-  --oui-color-base-2: 81 72 107;
-  --oui-color-base-3: 68 61 69;
-  --oui-color-base-4: 57 52 74;
-  --oui-color-base-5: 51 46 66;
-  --oui-color-base-6: 43 38 56;
-  --oui-color-base-7: 36 32 47;
-  --oui-color-base-8: 29 26 38;
-  --oui-color-base-9: 22 20 28;
-  --oui-color-base-10: 14 13 18;
+  --oui-color-base-1: 42 49 66; /* Mid-tone gray-blue for base shades */
+  --oui-color-base-2: 37 44 58;
+  --oui-color-base-3: 32 39 50;
+  --oui-color-base-4: 27 34 42;
+  --oui-color-base-5: 22 29 34;
+  --oui-color-base-6: 17 24 26;
+  --oui-color-base-7: 10 14 26; /* Matches fill color */
+  --oui-color-base-8: 5 9 18;
+  --oui-color-base-9: 2 5 10;
+  --oui-color-base-10: 0 0 0; /* Pure black for deepest shade */
 
-  --oui-color-base-foreground: 255 255 255;
-  --oui-color-line: 255 255 255;
+  --oui-color-base-foreground: 255 255 255; /* White for foreground text */
+  --oui-color-line: 42 49 66; /* Gray-blue for borders/lines */
 
-  --oui-color-trading-loss: 245 97 139;
-  --oui-color-trading-loss-contrast: 255 255 255;
-  --oui-color-trading-profit: 41 233 169;
-  --oui-color-trading-profit-contrast: 255 255 255;
+  --oui-color-trading-loss: 255 107 107; /* Matches danger color */
+  --oui-color-trading-loss-contrast: 0 0 0; /* Black for contrast */
+  --oui-color-trading-profit: 41 233 169; /* Matches success color */
+  --oui-color-trading-profit-contrast: 0 0 0; /* Black for contrast */
 
   /* gradients */
-  --oui-gradient-primary-start: 40 0 97;
-  --oui-gradient-primary-end: 189 107 237;
+  --oui-gradient-primary-start: 0 156 198; /* Darker cyan */
+  --oui-gradient-primary-end: 0 212 255; /* Bright cyan */
 
-  --oui-gradient-secondary-start: 81 42 121;
-  --oui-gradient-secondary-end: 176 132 233;
+  --oui-gradient-secondary-start: 26 31 46; /* Dark gray-blue */
+  --oui-gradient-secondary-end: 124 58 237; /* Vibrant purple */
 
-  --oui-gradient-success-start: 1 83 68;
-  --oui-gradient-success-end: 41 223 169;
+  --oui-gradient-success-start: 0 161 120; /* Dark green */
+  --oui-gradient-success-end: 41 233 169; /* Light green */
 
-  --oui-gradient-danger-start: 153 24 76;
-  --oui-gradient-danger-end: 245 97 139;
+  --oui-gradient-danger-start: 230 80 80; /* Darker red */
+  --oui-gradient-danger-end: 255 107 107; /* Soft red */
 
-  --oui-gradient-brand-start: 231 219 249;
-  --oui-gradient-brand-end: 159 107 225;
+  --oui-gradient-brand-start: 10 14 26; /* Deep navy */
+  --oui-gradient-brand-end: 124 58 237; /* Vibrant purple */
   --oui-gradient-brand-stop-start: 6.62%;
   --oui-gradient-brand-stop-end: 86.5%;
   --oui-gradient-brand-angle: 17.44deg;
 
-  --oui-gradient-warning-start: 152 58 8;
-  --oui-gradient-warning-end: 255 209 70;
+  --oui-gradient-warning-start: 255 152 0; /* Dark yellow */
+  --oui-gradient-warning-end: 255 209 70; /* Light yellow */
 
-  --oui-gradient-neutral-start: 27 29 24;
-  --oui-gradient-neutral-end: 38 41 46;
+  --oui-gradient-neutral-start: 10 14 26; /* Deep navy */
+  --oui-gradient-neutral-end: 26 31 46; /* Lighter dark gray-blue */
 
   /* rounded */
   --oui-rounded-sm: 2px;
